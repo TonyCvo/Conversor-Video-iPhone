@@ -1,0 +1,11 @@
+# Dependências para o Conversor de Vídeo Avançado v3.0
+# Instalar com: pip install -r requirements.txt
+
+# Interface gráfica com suporte a drag & drop
+tkinterdnd2>=0.3.0
+
+# Processamento de imagens (para thumbnails)
+Pillow>=9.0.0
+
+# Para melhor experiência no Windows
+pywin32>=305; sys_platform == "win32"
